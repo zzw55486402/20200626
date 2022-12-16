@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T15:53:01.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="jU2NCGHnNYF2ImareyaV" type="github"><diagram id="KmAh-F_3rGEYhf-EXX1V">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-16T01:49:58.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="z8dBtMm4nJE8ZNMmLRi3" type="github">
+  <diagram id="ybdbOiK5C4-j0JZ0TXzX" name="第 1 页">
+    <mxGraphModel dx="1465" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;filter&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="663.75" y="210" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;check AB Test toogle&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="157.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-4" value="use old logic to filter user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-1" target="OKI7zyMzbOOyzO_sZ5Qz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="530" as="sourcePoint" />
+            <mxPoint x="760" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-3" target="OKI7zyMzbOOyzO_sZ5Qz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="530" as="sourcePoint" />
+            <mxPoint x="810" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-7" value="off" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-8" value="use new logic to filter user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="777.5" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-3" target="OKI7zyMzbOOyzO_sZ5Qz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="642.5" y="380" as="sourcePoint" />
+            <mxPoint x="580" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-10" value="on" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-11" value="if task priority is P0 or task use target_reach to filter user" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="718.75" y="550" width="237.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-8" target="OKI7zyMzbOOyzO_sZ5Qz-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="540" as="sourcePoint" />
+            <mxPoint x="840" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-11" target="OKI7zyMzbOOyzO_sZ5Qz-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663.75" y="680" as="sourcePoint" />
+            <mxPoint x="650" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-11" target="OKI7zyMzbOOyzO_sZ5Qz-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="728.75" y="615" as="sourcePoint" />
+            <mxPoint x="1020" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-15" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="665" y="575" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-16" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="575" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-17" value="Use smart filter V2 to filter user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="705" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;if task use target_reach&lt;br&gt;&amp;nbsp;to filter user&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="183.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-19" value="Auto_optimise: use smart filter v1.5 filter API to filter user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-20" value="Target_reach: use smart filter v1.5 score to get v2 score and calculate thresh_hold, then filter user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="733.75" y="800" width="186.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-18" target="OKI7zyMzbOOyzO_sZ5Qz-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586.89" y="715" as="sourcePoint" />
+            <mxPoint x="520.015" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-18" target="OKI7zyMzbOOyzO_sZ5Qz-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="760" as="sourcePoint" />
+            <mxPoint x="850" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-23" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="743.75" y="705" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-25" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="515" y="705" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-26" value="upload filtered_user_file to s3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="741.88" y="970" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-20" target="OKI7zyMzbOOyzO_sZ5Qz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="910" as="sourcePoint" />
+            <mxPoint x="960" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-19" target="OKI7zyMzbOOyzO_sZ5Qz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="753.75" y="745" as="sourcePoint" />
+            <mxPoint x="836.9047619047619" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKI7zyMzbOOyzO_sZ5Qz-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKI7zyMzbOOyzO_sZ5Qz-17" target="OKI7zyMzbOOyzO_sZ5Qz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="763.75" y="755" as="sourcePoint" />
+            <mxPoint x="846.9047619047619" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
