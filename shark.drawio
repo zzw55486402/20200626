@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:48:00.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ifdLlJhspbvF9aIXzyXG" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T09:11:35.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="n9_HCDKHXXhmbjTPAjr-" version="21.3.6" type="github">
   <diagram name="第 1 页" id="bMDozYpqhCq1Gk0JoDoc">
-    <mxGraphModel dx="1546" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1819" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,8 +338,8 @@
             <mxPoint x="483.5" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KItahPj2j4c5v4B0Yujh-125" value="Spex Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="985" width="130" height="35" as="geometry" />
+        <mxCell id="KItahPj2j4c5v4B0Yujh-125" value="Spex Request with trace_id and regression flag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="980" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="KItahPj2j4c5v4B0Yujh-126" value="handle log and&lt;br&gt;generate test&lt;br&gt;case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1382.5" y="327.5" width="95" height="155" as="geometry" />
@@ -361,6 +361,21 @@
         </mxCell>
         <mxCell id="KItahPj2j4c5v4B0Yujh-136" value="read log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1430" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KItahPj2j4c5v4B0Yujh-137" value="Regression Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="491.25" y="1190" width="132.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KItahPj2j4c5v4B0Yujh-138" value="Mock server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1515" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KItahPj2j4c5v4B0Yujh-139" value="test case" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="423.13" y="860" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KItahPj2j4c5v4B0Yujh-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KItahPj2j4c5v4B0Yujh-139" target="KItahPj2j4c5v4B0Yujh-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="1125" as="sourcePoint" />
+            <mxPoint x="470" y="1030" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
