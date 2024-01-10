@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T04:29:35.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TgKYlIIvhZ2Pv7kmKkx4" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T07:45:24.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ll6Ms1wEWUrHQXkxxxM7" version="21.7.1" type="github">
   <diagram name="第 1 页" id="eU1CPtcxZ4fjZuy7V7a4">
-    <mxGraphModel dx="1546" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="itHvzaHbyUTomz1-z-uD-1" value="create_experiment&lt;br&gt;&lt;br&gt;get_experiment_list&lt;br&gt;&lt;br&gt;edit_experiment&lt;br&gt;&lt;br&gt;add_task_group&lt;br&gt;&lt;br&gt;update_experiment_status&lt;br&gt;&lt;br&gt;view_experiment_result&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="180" width="200" height="340" as="geometry" />
+        <mxCell id="itHvzaHbyUTomz1-z-uD-1" value="create_experiment&lt;br&gt;&lt;br&gt;get_experiment_list&lt;br&gt;&lt;br&gt;edit_experiment&lt;br&gt;&lt;br&gt;create_task_group&lt;br&gt;&lt;br&gt;update_experiment_status&lt;br&gt;&lt;br&gt;view_experiment_result" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="245" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="itHvzaHbyUTomz1-z-uD-2" value="get_task (keep, need new field)&lt;br&gt;&lt;br&gt;edit_task_group&lt;br&gt;&lt;br&gt;task_group_test_send&lt;br&gt;&lt;br&gt;validate_and_split_task_group&lt;br&gt;&lt;br&gt;get_validate_and_split_task_group_stats&lt;br&gt;&lt;br&gt;filter_task_group&lt;br&gt;&lt;br&gt;get_filter_task_group_stats&lt;br&gt;&lt;br&gt;schedule_task_group&lt;br&gt;&lt;br&gt;send_task_group&lt;br&gt;&lt;br&gt;get_task_group_execution_list&lt;br&gt;&lt;br&gt;update_task_group_status&lt;br&gt;&lt;br&gt;get_task_group_operation_logs&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="180" width="280" height="340" as="geometry" />
+          <mxGeometry x="670" y="180" width="280" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="itHvzaHbyUTomz1-z-uD-3" value="noti_marketpush_experiment_tab&lt;br&gt;&lt;br&gt;noti_task_group_tab&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="180" width="300" height="350" as="geometry" />
+        <mxCell id="itHvzaHbyUTomz1-z-uD-3" value="&lt;br&gt;noti_marketpush_experiment_tab&lt;br&gt;&lt;br&gt;noti_task_group_tab&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="282.5" width="190" height="137.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
