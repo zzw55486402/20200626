@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T08:56:38.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kq1O7fj6QiQgUu0kDINJ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T14:38:10.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YkBihs8fWYuk1mVu5Hjk" version="22.1.21" type="github">
   <diagram name="第 1 页" id="eU1CPtcxZ4fjZuy7V7a4">
     <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
         <mxCell id="Azt6U8zKA7J9k8M9SDQc-50" value="+ variants: Variant" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Azt6U8zKA7J9k8M9SDQc-47" vertex="1">
           <mxGeometry y="104" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Azt6U8zKA7J9k8M9SDQc-51" value="+ remaining: uint32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Azt6U8zKA7J9k8M9SDQc-47" vertex="1">
+        <mxCell id="Azt6U8zKA7J9k8M9SDQc-51" value="+ remaining_percentage: uint32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Azt6U8zKA7J9k8M9SDQc-47" vertex="1">
           <mxGeometry y="130" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Azt6U8zKA7J9k8M9SDQc-52" value="+ exp_task_group_test_send_config:&amp;nbsp;ExperimentTaskGroupTestSendConfig" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Azt6U8zKA7J9k8M9SDQc-47" vertex="1">
