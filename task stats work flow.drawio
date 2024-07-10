@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:42:56.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dcGJ-BdZNYVkD7Ss5GVJ" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T07:45:23.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="yPV5KtUNiSav5-THKzoi" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -304,8 +304,8 @@
         <mxCell id="L9vpntEDAFxDncsXa6qY-20" value="task stats sync.Map" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1071.25" y="965" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-29" value="every FlushStatsDelay minutes start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
-          <mxGeometry x="1076.25" y="1175" width="120" height="80" as="geometry" />
+        <mxCell id="L9vpntEDAFxDncsXa6qY-29" value="every FlushStatsDelay minutes start, flush current hour data to cache" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="1058.13" y="1162.5" width="156.25" height="105" as="geometry" />
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-30" value="cron job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1101.25" y="1263" width="70" height="30" as="geometry" />
