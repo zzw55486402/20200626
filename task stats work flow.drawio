@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:58:15.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4cmHDISoJo68Is2Cj_0R" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T10:10:57.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Lb8XhlXn57MCBAknrvXr" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -55,8 +55,8 @@
         <mxCell id="EGWkGbONBdirZcULKeuj-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="660" y="540" width="130" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="EGWkGbONBdirZcULKeuj-23" value="task stats counter&lt;br&gt;&lt;br&gt;cron job: every 3 minutes to flush task stats to db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="670" y="820" width="107.5" height="60" as="geometry" />
+        <mxCell id="EGWkGbONBdirZcULKeuj-23" value="task stats counter&lt;br&gt;map[task_id:region:date:commsId]TaskStats&lt;br&gt;&lt;br&gt;cron job: every 3 minutes to flush task stats to db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="558.75" y="830" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EGWkGbONBdirZcULKeuj-24" value="update_fields_&lt;br&gt;with_operation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="810" y="590" width="100" height="40" as="geometry" />
@@ -159,9 +159,6 @@
         </mxCell>
         <mxCell id="EGWkGbONBdirZcULKeuj-83" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="1740" y="560" width="130" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="EGWkGbONBdirZcULKeuj-84" value="task stats counter&lt;br&gt;&lt;br&gt;cron job: every 3 minutes to flush task stats to cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="840" width="107.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EGWkGbONBdirZcULKeuj-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EGWkGbONBdirZcULKeuj-87" target="EGWkGbONBdirZcULKeuj-103" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -372,6 +369,21 @@
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-67" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1188" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-69" value="TaskStats" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="827.5" y="310" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-70" value="ctx context.Context&lt;br&gt;taskID uint32&lt;br&gt;date uint32&lt;br&gt;region string&lt;br&gt;commsId string&lt;br&gt;newReq, newSent, newSched EasyAtomic.Int32&lt;br&gt;lastUsed ActomicTime" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-69">
+          <mxGeometry x="5" y="33" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-71" value="task stats counter&lt;br&gt;map[task_id:region:date:commsId]TaskStats&lt;br&gt;&lt;br&gt;cron job: every FlushStatsDelay minutes to flush task stats to db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1638.75" y="840" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-72" value="TaskStats" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="750" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-73" value="ctx context.Context&lt;br&gt;taskID uint32&lt;br&gt;date uint32&lt;br&gt;region string&lt;br&gt;commsId string&lt;br&gt;newReq, newSent, newSched EasyAtomic.Int32&lt;br&gt;lastUsed ActomicTime" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-72">
+          <mxGeometry x="5" y="33" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
