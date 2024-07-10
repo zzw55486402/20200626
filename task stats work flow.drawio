@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:42:33.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UXOBF6YejjBDzY_a-UN2" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T07:42:56.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dcGJ-BdZNYVkD7Ss5GVJ" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -366,6 +366,9 @@
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-65" value="ctx context.Context&lt;br&gt;taskID uint32&lt;br&gt;date uint32&lt;br&gt;region string&lt;br&gt;commsId string&lt;br&gt;newReq, newSent, newSched EasyAtomic.Int32&lt;br&gt;lastUsed ActomicTime" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-62">
           <mxGeometry x="5" y="33" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-66" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1790" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
