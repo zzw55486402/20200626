@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T06:28:32.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uPulq_oA_jocSpebg9Zf" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T06:29:58.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qu76ZcMxVSIxwUgMUN4E" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
         <mxCell id="L9vpntEDAFxDncsXa6qY-2" value="noti.scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-3" value="&lt;br&gt;key:[task_id:region:date:commsId]&lt;br&gt;&lt;br&gt;value:taskStats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L9vpntEDAFxDncsXa6qY-3" value="&lt;br&gt;key:[task_id:region:date:commsId]&lt;br&gt;&lt;br&gt;value:TaskStats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1150" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-4" value="task stats sync.Map" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
