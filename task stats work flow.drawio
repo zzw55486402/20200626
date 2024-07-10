@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:25:57.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="O3zZ_gDlahJgV9rgFQpO" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T07:42:02.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aLZJ8jjgP2_4AVs4uHBz" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -295,17 +295,6 @@
         <mxCell id="L9vpntEDAFxDncsXa6qY-4" value="task stats sync.Map" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="1260" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-7" value="TaskStats" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1050" width="140" height="90" as="geometry">
-            <mxRectangle x="740" y="1050" width="90" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-8" value="taskID uint32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-7">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-9" value="date uint32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-7">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L9vpntEDAFxDncsXa6qY-19" target="L9vpntEDAFxDncsXa6qY-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -371,6 +360,12 @@
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-59" value="incr value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="425" y="1208" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-62" value="TaskStats" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1050" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L9vpntEDAFxDncsXa6qY-65" value="ctx context.Context&lt;br&gt;taskID uint32&lt;br&gt;date uint32&lt;br&gt;region string&lt;br&gt;commsId string&lt;br&gt;newReq, newSent, newSched EasyAtomic.Int32&lt;br&gt;lastUsed ActomicTime" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-62">
+          <mxGeometry x="5" y="33" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
