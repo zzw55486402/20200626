@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T05:47:58.554Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wDx31Y4h_5wFZd36sPnX" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T05:50:49.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5bMKiKqZPxS28fSsDD9J" version="23.0.0" type="github">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
     <mxGraphModel dx="1546" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -542,9 +542,6 @@
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-147" value="ctx context.Context&lt;br&gt;taskID uint32&lt;br&gt;date uint32&lt;br&gt;region string&lt;br&gt;commsId string&lt;br&gt;newReq, newSent, newSched EasyAtomic.Int32&lt;br&gt;lastUsed ActomicTime" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="L9vpntEDAFxDncsXa6qY-146">
           <mxGeometry x="5" y="33" width="280" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-148" value="noti-scheduler:&amp;nbsp;received request and use task stats counter to record number in task_stas_dm struct for every task(task level).&lt;br&gt;noti-dispatcher:&amp;nbsp;dispatch noti(merge pn, delay pn and crm task), use task stats counter to record sent number in task_stats_dm struct for every task(task level).&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;task stats counter&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;map[task_id:region:date:commsId]TaskStats&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;cron job: every 3 minutes to flush task stats to db&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="830" y="2795" width="870" height="130" as="geometry" />
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-156" value="noti-scheduler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1166.25" y="2570" width="100" height="30" as="geometry" />
