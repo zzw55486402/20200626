@@ -1,21 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="BuCrCjxRLYBdloh2XWjL">
-    <mxGraphModel dx="4362" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4751" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L9vpntEDAFxDncsXa6qY-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" parent="1" source="L9vpntEDAFxDncsXa6qY-103" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="1565" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" parent="1" source="L9vpntEDAFxDncsXa6qY-103" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="1520" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="243" y="1640" />
-              <mxPoint x="440" y="1640" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="EGWkGbONBdirZcULKeuj-1" value="received request and use task stats counter to record number in task_stas_dm struct for every task(task level)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="1" vertex="1">
@@ -414,9 +405,6 @@
         <mxCell id="L9vpntEDAFxDncsXa6qY-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" parent="1" source="L9vpntEDAFxDncsXa6qY-82" target="L9vpntEDAFxDncsXa6qY-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-95" value="read/write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="685" y="1450" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-96" value="read/write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="500" y="1530" width="80" height="30" as="geometry" />
         </mxCell>
@@ -428,12 +416,6 @@
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-103" value="double toggle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;fillColor=#00CC66;" parent="1" vertex="1">
           <mxGeometry x="220" y="1540" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=30;" parent="1" source="L9vpntEDAFxDncsXa6qY-82" target="L9vpntEDAFxDncsXa6qY-76" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L9vpntEDAFxDncsXa6qY-106" value="false: write to new table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="245" y="1632.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L9vpntEDAFxDncsXa6qY-109" value="true：write to old table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="250" y="1520" width="140" height="30" as="geometry" />
@@ -734,8 +716,17 @@
         <mxCell id="L9vpntEDAFxDncsXa6qY-243" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1600" y="3595.5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aKWblY6ytZIYMNWJNv3b-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aKWblY6ytZIYMNWJNv3b-1" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-230" y="1650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fya0cUnL3t0M4Ih-v4M-1" value="TaskStats(Cache)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fya0cUnL3t0M4Ih-v4M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L9vpntEDAFxDncsXa6qY-85" target="_Fya0cUnL3t0M4Ih-v4M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fya0cUnL3t0M4Ih-v4M-4" value="write to cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1610" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
