@@ -19,7 +19,7 @@
         <mxCell id="V5cFmOrCDkgjCt-jMqXi-11" value="trigger inapp &lt;br&gt;banner noti" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="308" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V5cFmOrCDkgjCt-jMqXi-12" value="mts client push service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="V5cFmOrCDkgjCt-jMqXi-12" value="mts client push service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="680" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V5cFmOrCDkgjCt-jMqXi-14" value="send inapp &lt;br&gt;banner notification&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
