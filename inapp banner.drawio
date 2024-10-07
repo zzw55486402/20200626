@@ -78,9 +78,6 @@
         <mxCell id="lxfgVVIcujhXge4HqQLv-15" value="Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="870" y="660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lxfgVVIcujhXge4HqQLv-16" value="Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475" y="660" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="lxfgVVIcujhXge4HqQLv-17" value="Master Toggle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="495" width="100" height="30" as="geometry" />
         </mxCell>
