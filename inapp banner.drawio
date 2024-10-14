@@ -193,6 +193,12 @@
         <mxCell id="fWLB_prPq2bRiejZTtYE-1" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="930" y="120" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="fWLB_prPq2bRiejZTtYE-3" value="shopee_noti_db" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWLB_prPq2bRiejZTtYE-4" value="shopee_noti_db" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
