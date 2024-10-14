@@ -109,6 +109,9 @@
         <mxCell id="lxfgVVIcujhXge4HqQLv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lxfgVVIcujhXge4HqQLv-36" target="lxfgVVIcujhXge4HqQLv-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fWLB_prPq2bRiejZTtYE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lxfgVVIcujhXge4HqQLv-36" target="fWLB_prPq2bRiejZTtYE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lxfgVVIcujhXge4HqQLv-36" value="noti-core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="900" y="-130" width="120" height="60" as="geometry" />
         </mxCell>
@@ -198,6 +201,12 @@
         </mxCell>
         <mxCell id="fWLB_prPq2bRiejZTtYE-4" value="shopee_noti_db" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="905" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWLB_prPq2bRiejZTtYE-5" value="account-session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWLB_prPq2bRiejZTtYE-7" value="get online&lt;br&gt;&amp;nbsp;device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-177" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
