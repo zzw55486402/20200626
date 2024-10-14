@@ -172,12 +172,6 @@
         <mxCell id="ePHPaKOIyx6lW65F-8te-7" value="Promotions And Engagements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1050" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ePHPaKOIyx6lW65F-8te-13" value="Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="670" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ePHPaKOIyx6lW65F-8te-14" value="Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="730" y="660" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="x1nyreSkVS7O_qfH3YEh-1" value="user receive inapp &lt;br&gt;banner notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1450" y="-102" width="120" height="40" as="geometry" />
         </mxCell>
