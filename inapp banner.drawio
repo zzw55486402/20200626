@@ -202,6 +202,24 @@
         <mxCell id="fWLB_prPq2bRiejZTtYE-7" value="get online&lt;br&gt;&amp;nbsp;device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="950" y="-177" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-2" value="inapp banner noti" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-4" value="white list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA4-ttY5mRyzuNNWge5f-7" value="black list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1420" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
