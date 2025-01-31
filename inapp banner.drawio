@@ -268,7 +268,7 @@
         <mxCell id="bA4-ttY5mRyzuNNWge5f-29" value="user create task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="1115" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78yQhG_F-wzF9rll4XYW-1" value="Promotion(102)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="78yQhG_F-wzF9rll4XYW-1" value="Promotions(102)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="837.5" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
