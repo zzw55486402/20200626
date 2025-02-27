@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="VAf6igmmD9Jwj62o0NM7">
-    <mxGraphModel dx="2375" dy="6088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1633" dy="5649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,7 +276,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-99" value="resetpnbadge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2220" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="2230" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-100" value="pntoken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2230" y="1140" width="120" height="60" as="geometry" />
@@ -399,6 +399,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-54" target="Bp6k9HxTbgotzEniJnzc-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-156" target="Bp6k9HxTbgotzEniJnzc-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-156" value="MQ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="270" width="60" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-38" target="Bp6k9HxTbgotzEniJnzc-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-160" value="pn badge cache" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="1980" y="127.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-99" target="Bp6k9HxTbgotzEniJnzc-160">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
