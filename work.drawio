@@ -638,17 +638,17 @@
         <mxCell id="Bp6k9HxTbgotzEniJnzc-344" value="write or&lt;br&gt;delete&lt;br&gt;action&lt;br&gt;content" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="515" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Bp6k9HxTbgotzEniJnzc-345" value="delete db index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="450" width="100" height="30" as="geometry" />
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-345" value="delete db ar index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="450" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bp6k9HxTbgotzEniJnzc-346" value="delete db action" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="675" y="505.47" width="110" height="30" as="geometry" />
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-346" value="delete db ar action" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="505.47" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bp6k9HxTbgotzEniJnzc-347" value="delete redis index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="755.47" width="120" height="30" as="geometry" />
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-347" value="delete redis ar index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="755.47" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bp6k9HxTbgotzEniJnzc-348" value="delete redis contet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="840" width="120" height="30" as="geometry" />
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-348" value="delete redis ar contet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-349" value="consume &lt;br&gt;message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="585" y="573" width="70" height="40" as="geometry" />
@@ -840,7 +840,7 @@
           <mxGeometry x="1010" y="-562.5" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-417" value="1.marketpush, marketpushpipelinemanager, marketpushconsumer, core, coremain, coreinapp, scheduler, dispatcher, marketpushoptimization, those service call task_access to get data, not call db directly, other service call db directly.&lt;br&gt;&lt;br&gt;&lt;div&gt;2. all service use NAC SDK to call account service or get account data from cache, and NAC cache invalid by cacheinvalidationpipeline, consume binlog to delete cache.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1265" y="-690" width="415" height="220" as="geometry" />
+          <mxGeometry x="1265" y="-750" width="415" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-421" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-419" target="Bp6k9HxTbgotzEniJnzc-100">
           <mxGeometry relative="1" as="geometry" />
