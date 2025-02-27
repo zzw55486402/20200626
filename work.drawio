@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="VAf6igmmD9Jwj62o0NM7">
-    <mxGraphModel dx="2612" dy="6229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1866" dy="5787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,6 +56,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-1" target="Bp6k9HxTbgotzEniJnzc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-17" target="Bp6k9HxTbgotzEniJnzc-279">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-17" value="marketpushconsumer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -505,6 +508,33 @@
         </mxCell>
         <mxCell id="Bp6k9HxTbgotzEniJnzc-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bp6k9HxTbgotzEniJnzc-30" target="Bp6k9HxTbgotzEniJnzc-152">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-274" value="mp task crud and &lt;br&gt;schedule or send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-227" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-275" value="push mini task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-222" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-276" value="cosume mini task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="-217" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-277" value="push noti" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-132" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-278" value="consume mp noti" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="198" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-279" value="cleanerserver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-281" value="set delete info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-217" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-282" value="inapp, transactional, &lt;br&gt;crm task crud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp6k9HxTbgotzEniJnzc-283" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="158" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
