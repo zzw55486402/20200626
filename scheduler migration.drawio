@@ -79,7 +79,7 @@
         <mxCell id="MQf_xIWsjF90S9NtZXC0-6" value="Caller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="930" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQf_xIWsjF90S9NtZXC0-7" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="MQf_xIWsjF90S9NtZXC0-7" value="CacheCloud" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="840" y="910" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MQf_xIWsjF90S9NtZXC0-8" value="New KV" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -136,7 +136,7 @@
         <mxCell id="MQf_xIWsjF90S9NtZXC0-51" value="Caller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1360" y="930" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQf_xIWsjF90S9NtZXC0-52" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="MQf_xIWsjF90S9NtZXC0-52" value="CacheCloud" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1685" y="740" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MQf_xIWsjF90S9NtZXC0-53" value="New KV" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
