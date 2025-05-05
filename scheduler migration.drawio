@@ -775,7 +775,7 @@
         <mxCell id="MQf_xIWsjF90S9NtZXC0-309" value="&lt;b&gt;crm, delay pn summarise(pn,ar)&lt;/b&gt;&amp;nbsp;&lt;br&gt;write to cachecloud" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2780" y="3570" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MQf_xIWsjF90S9NtZXC0-310" value="&lt;b&gt;crm, delay pn summarise(pn,ar)&lt;/b&gt;&lt;br&gt;read from New KV" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="MQf_xIWsjF90S9NtZXC0-310" value="&lt;b&gt;crm, delay pn summarise(pn,ar)&lt;/b&gt;&lt;br&gt;read from CacheCloud" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2780" y="3240" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MQf_xIWsjF90S9NtZXC0-311" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
