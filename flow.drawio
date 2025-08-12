@@ -133,13 +133,13 @@
         <mxCell id="VKCxD2D4-A_cAkZ3czIG-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="1240" width="440" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VKCxD2D4-A_cAkZ3czIG-2" value="7.31-8.31&lt;br&gt;(1 month work, Last Work Day 29 Aug)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="345" y="1250" width="230" height="40" as="geometry" />
+        <mxCell id="VKCxD2D4-A_cAkZ3czIG-2" value="7.31-8.31&lt;br&gt;(1 month work, Last Work Day 8.29)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1250" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VKCxD2D4-A_cAkZ3czIG-3" value="9.1-9.8&lt;br&gt;(6 day OIL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="680" y="1240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VKCxD2D4-A_cAkZ3czIG-4" value="9.9-9.29&lt;div&gt;(15day Annual Leave)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="VKCxD2D4-A_cAkZ3czIG-4" value="9.9-9.29&lt;div&gt;(15day Annual Leave, Last Day 9.29)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="840" y="1240" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VKCxD2D4-A_cAkZ3czIG-5" value="9.30&lt;div&gt;buyout&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
